@@ -1,0 +1,26 @@
+{
+  "disclosure": "SYNTHETIC rows grounded in a supplied 50-row sample; not independent real evidence.",
+  "source_rows": 50,
+  "synthetic_rows": 1000,
+  "seed": 42,
+  "source_beta_interaction": -1.8772180294771665,
+  "synthetic_refit_beta_interaction": -1.960468810188983,
+  "source_interaction_p_value": 0.00023784381455595546,
+  "source_adjusted_r_squared": 0.9262116938343115,
+  "source_residual_sd": 19.834240185322734,
+  "target_values_floored_at_zero": 33,
+  "unique_synthetic_predictor_profiles": 999,
+  "max_absolute_correlation_difference": 0.024398866415732946,
+  "target_mean_relative_difference": 0.02031108702647291,
+  "target_sd_relative_difference": 0.002852369053771207,
+  "interaction_relative_difference": 0.044347955008189936,
+  "input_jitter_fraction_of_observed_sd": 0.2,
+  "predictor_bounds": "Observed minimum and maximum; counts rounded to integers; sleep to 0.1 hours.",
+  "validation_limits": {
+    "mean_relative": 0.1,
+    "sd_relative": 0.15,
+    "correlation_absolute": 0.15,
+    "interaction_relative": 0.2
+  },
+  "checks_passed": true
+}

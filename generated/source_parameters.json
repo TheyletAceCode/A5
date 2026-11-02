@@ -1,0 +1,88 @@
+{
+  "coefficient_order": [
+    "intercept",
+    "focus_blocks",
+    "interruptions",
+    "sleep_hours",
+    "caffeine_mg",
+    "emails_received",
+    "focus_blocks_x_interruptions"
+  ],
+  "coefficients": [
+    -68.38719041512687,
+    36.48927474973527,
+    4.939972042095083,
+    8.177896156561163,
+    -0.0053584395308841635,
+    0.09098508397786662,
+    -1.8772180294771665
+  ],
+  "means": {
+    "focus_blocks": 3.48,
+    "interruptions": 5.6,
+    "sleep_hours": 6.542000000000001,
+    "caffeine_mg": 207.78,
+    "emails_received": 34.16,
+    "deep_work_minutes": 106.8
+  },
+  "sample_standard_deviations": {
+    "focus_blocks": 2.5333691368755304,
+    "interruptions": 2.6649654437396615,
+    "sleep_hours": 0.9529952780575568,
+    "caffeine_mg": 77.68652077551215,
+    "emails_received": 21.003750879793067,
+    "deep_work_minutes": 73.01663215616406
+  },
+  "correlations": {
+    "focus_blocks": {
+      "focus_blocks": 1.0,
+      "interruptions": -0.1311908639613484,
+      "sleep_hours": 0.3093149015417263,
+      "caffeine_mg": -0.12450922140676654,
+      "emails_received": -0.011828317006209595,
+      "deep_work_minutes": 0.9512213543033713
+    },
+    "interruptions": {
+      "focus_blocks": -0.1311908639613484,
+      "interruptions": 1.0,
+      "sleep_hours": 0.06541027787797254,
+      "caffeine_mg": 0.1352054327814654,
+      "emails_received": 0.8572451811573958,
+      "deep_work_minutes": -0.15627043061834564
+    },
+    "sleep_hours": {
+      "focus_blocks": 0.3093149015417263,
+      "interruptions": 0.06541027787797254,
+      "sleep_hours": 1.0,
+      "caffeine_mg": -0.015171556656781306,
+      "emails_received": -0.0021777978311329155,
+      "deep_work_minutes": 0.3507172978074682
+    },
+    "caffeine_mg": {
+      "focus_blocks": -0.12450922140676654,
+      "interruptions": 0.1352054327814654,
+      "sleep_hours": -0.015171556656781306,
+      "caffeine_mg": 1.0,
+      "emails_received": -0.019414234016118075,
+      "deep_work_minutes": -0.12997827051514427
+    },
+    "emails_received": {
+      "focus_blocks": -0.011828317006209595,
+      "interruptions": 0.8572451811573958,
+      "sleep_hours": -0.0021777978311329155,
+      "caffeine_mg": -0.019414234016118075,
+      "emails_received": 1.0,
+      "deep_work_minutes": -0.05968791968054232
+    },
+    "deep_work_minutes": {
+      "focus_blocks": 0.9512213543033713,
+      "interruptions": -0.15627043061834564,
+      "sleep_hours": 0.3507172978074682,
+      "caffeine_mg": -0.12997827051514427,
+      "emails_received": -0.05968791968054232,
+      "deep_work_minutes": 1.0
+    }
+  },
+  "residual_sd": 19.834240185322734,
+  "source_file": "productivity_focus_rows_3-27_74-98.xlsx"
+}
